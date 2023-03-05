@@ -54,8 +54,8 @@ public class App {
                                                             // info we need
                     .uri(URI.create("https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/"
                             + recipesId.get(i) + "/information"))
-                    .header("X-RapidAPI-Key", "b51a1e0825msh27e4bfa684f6706p1b3fd2jsn177edef0e555")
-                    .header("X-RapidAPI-Host", "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com")
+                    .header("X-RapidAPI-Key", "NO_LONGER_WORKING")
+                    .header("X-RapidAPI-Host", "NO_LONGER_WORKING")
                     .method("GET", HttpRequest.BodyPublishers.noBody())
                     .build();
             HttpResponse<String> response2 = HttpClient.newHttpClient().send(request2,
